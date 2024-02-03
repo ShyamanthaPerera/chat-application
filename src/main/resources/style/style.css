@@ -1,0 +1,187 @@
+.background-color{
+    -fx-background-color: linear-gradient(to bottom,#051937,#19359B);
+
+}
+
+.border-radius{
+    -fx-border-radius: 50px;
+}
+
+.coolBeans {
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: transparent;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-family: "Ubuntu";
+    -fx-font-size: 24px;
+    -fx-font-weight: 100;
+    -fx-padding: 10 20;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+
+    -fx-effect: dropshadow(gaussian, white, 0, 0, 0, 0);
+    -fx-translate-x: 0;
+    -fx-translate-y: 0;
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+
+    -fx-transition: -fx-border-color 0.2s, -fx-text-fill 0.2s, -fx-translate-x 0.2s, -fx-translate-y 0.2s, -fx-scale-x 0.2s, -fx-scale-y 0.2s;
+    -fx-z-index: 0;
+}
+
+.coolBeans:hover {
+    -fx-border-color: transparent;
+    -fx-text-fill: lightblue;
+    -fx-translate-x: 0;
+    -fx-translate-y: 0;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.sender-message {
+    -fx-background-color: lightblue;
+    -fx-padding: 12px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 12px;
+    -fx-alignment: center-right;
+    -fx-start-margin: 50px;
+}
+
+.other-message {
+    -fx-background-color: lightgreen;
+    -fx-padding: 12px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 12px;
+    -fx-alignment: center-left;
+}
+
+.sender-label {
+    -fx-font-weight: bold; /* Make sender's name bold */
+    -fx-padding: 0 5 0 0; /* Add some right padding to separate sender's name from the message */
+}
+
+.message-label {
+    /* Add any additional styling for the message content */
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.background{
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal{
+    -fx-opacity: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical .thumb:hover{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+.receive-text {
+    -fx-font-size: 15px;
+    -fx-fill: #2e4f3f;
+}
+
+.receive-box {
+    -fx-background-color: #7f8c8d;
+    -fx-padding: 8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+    -fx-start-margin: 10px;
+}
+
+.send-box{
+    -fx-background-color: #2980b9;
+    -fx-padding: 8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+    -fx-start-margin: 10px;
+    -fx-alignment: CENTER_RIGHT;
+}
+
+.send-text{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-fill: #172a32;
+}
+
+.join-text{
+    -fx-text-fill:  #57cc99;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.left-text{
+    -fx-text-fill:  #e63946;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.time-text{
+    -fx-fill: #e3d5ca;
+    -fx-font-size: 10px;
+}
+
+.emoji_pane{
+    -fx-background-color: #2f3e46;
+    -fx-background-radius: 10;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color:  #57cc99;
+    -fx-border-radius: 10;
+}
+
+.image_pane{
+    -fx-background-color: rgba(100, 98, 98, 0.43);
+}
+
+.dark-text{
+    -fx-background-color:  #445159;
+    -fx-background-radius: 10px;
+}
+
+.light-text{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+}
+
+
+
+
